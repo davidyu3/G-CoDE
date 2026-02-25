@@ -25,17 +25,21 @@ Yichen Dai, Yuanyuan Chen, Yong Xia*
 · INT and ZEN (including ZEN40-ZEN49) datasets from HEST-1k can be downloaded according to [HEST-1k](https://github.com/mahmoodlab/hest).
 Save these datasets to ./data within your project workspace, the structure of ./data is:
 ```
-    ├── data
-    │   ├── STNet
-    │   ├── Skin
-    │   ├── STimage-1K4M
+    ├── dataset
+    │   ├── Her2st
+    │   ├── CSCC_data
+    │   ├── Alec_NatGen
     │   │   ├── PCW
     │   │   └── Mouse
     │   └──HEST-1k
     │       └──ST
     │           ├── INT
     │           └── ZEN
-    ├──weights
+    ├── data
+    │   ├── filtered_expression_matrices
+    │   ├── preprocessed_expression_matrices
+    │   ├── skin
+    ├── her2st_pred_att
 ```
 
 
